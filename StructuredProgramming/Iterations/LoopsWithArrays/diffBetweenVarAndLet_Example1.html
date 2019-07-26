@@ -1,0 +1,28 @@
+<!--https://www.geeksforgeeks.org/difference-between-var-and-let-in-javascript/
+
+//var and let are both used for variable declaration in javascript but the
+//difference between them is that var is function scoped and let is block scoped.
+-->
+<html>
+
+<body>
+    <script>
+        // calling x after definition
+        var x = 5;
+        document.write("Value of x is " + x, "\n<br>");
+
+        // calling y after definition
+        let y = 10;
+        document.write("Value of y is " + y, "\n<br>");
+
+        // calling var z before definition will return undefined
+        document.write("Value of z is " + z, "\n<br>");
+        var z = 2;
+
+        // calling let a before definition will give error in browser console
+        document.write("Value of a is + " + a);
+        let a = 3;
+    </script>
+</body>
+
+</html>
