@@ -1,0 +1,6 @@
+1) Download Node.js (https://nodejs.org/en/download/)
+2) Download Atom (https://atom.io/)
+3) Create a folder in windows for Javascript code
+4) Open Atom and copy the code mentioned
+5) Open Node.js command prompt
+6) Navigate to the Project Structure and type command --> node filename
